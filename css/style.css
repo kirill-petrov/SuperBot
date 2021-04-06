@@ -21,6 +21,10 @@ h1,
   --yellow: #ffbd5b;
 }
 
+body {
+  background-color: var(--grey);
+}
+
 .bot__wrapper {
   display: flex;
   justify-content: center;
@@ -30,7 +34,8 @@ h1,
   width: 100%;
   min-width: 320px;
   max-width: 375px;
-  border: 1px solid var(--grey)
+  background-color:white;
+  border: 1px solid rgb(194, 194, 194);
 }
 
 h1 {
@@ -88,6 +93,11 @@ button:focus {
   font-weight: 500;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 ::selection {
   background-color: var(--yellow);
 }
+

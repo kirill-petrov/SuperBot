@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SuperBot</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <div class="bot__wrapper">
@@ -16,13 +20,12 @@
 
         <div class="bot">
           <p>Bot:</p>
-          <p>Text answer...</p>
+          <p id="bot__answer" class="animate__animated">Text answer...</p>
         </div>
 
         <div class="bot__form">
-          <form action="">
-            <input id="input" type="text" placeholder="Ваш вопрос"
-            />
+          <form>
+            <input name="question" type="text" placeholder="Ваш вопрос" />
             <button>Спросить</button>
           </form>
         </div>
